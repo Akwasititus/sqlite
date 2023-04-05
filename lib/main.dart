@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
                     decoration: const InputDecoration(hintText: 'Title'),
                   ),
                   const SizedBox(
-                    height: 10,
+                    height: 15,
                   ),
                   TextField(
                     controller: _descriptionController,
