@@ -70,11 +70,11 @@ class _HomePageState extends State<HomePage> {
         isScrollControlled: true,
         builder: (_) => Container(
               padding: EdgeInsets.only(
-                top: 15,
-                left: 15,
-                right: 15,
+                top: 20,
+                left: 20,
+                right: 20,
                 // this will prevent the soft keyboard from covering the text fields
-                bottom: MediaQuery.of(context).viewInsets.bottom + 120,
+                bottom: MediaQuery.of(context).viewInsets.bottom + 120, //Titus take note of this
               ),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
